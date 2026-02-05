@@ -1,0 +1,10 @@
+{
+  "manifest_version": 3,
+  "name": "Chrome Tabs to Markdown",
+  "version": "1.0.0",
+  "description": "Copy all tabs in the current window as a Markdown list.",
+  "action": {
+    "default_popup": "popup.html"
+  },
+  "permissions": ["tabs", "clipboardWrite"]
+}
